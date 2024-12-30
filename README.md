@@ -5,7 +5,7 @@ This repository teaches how to create a fake phishing page for Instagram and dem
 ## Tutorial
 
 Watch the tutorial video on how to set up and use this phishing page:  
-[Watch the Tutorial](https://youtu.be/VKWtJKQyoD8?si=8Js12n_SUvtAvEZU)
+[Watch the Tutorial](https://youtu.be/KMc9ldEFGW0?si=reVy66_ow6NJWiZA)
 
 ## Websites Used in this Tutorial
 
