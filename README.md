@@ -29,32 +29,12 @@ Bot.sendMessage("YOUR URL:\n" + url + "\n\nMADE BY <b>@SG_Modder</b>", { parse_m
 
 ## Usage
 
-1. Start the bot by sending `/start`
-2. Use the `/create` command to generate your personalized URL
-3. Share the generated URL with others
-
-## Base URL
-
-The bot uses the following base URL for link generation:
-```
-https://sg-internet.vercel.app/
-```
-
-## Parameters
-
-- `id`: User's Telegram ID (automatically added to the URL)
+Just watch complete tutorial and set up 👍
 
 ## Credits
 
 Created by @SG_Modder
 
-## Technical Notes
-
-- The bot uses HTML parsing mode for message formatting
-- User IDs are automatically extracted from the Telegram context
-- URLs are generated dynamically based on the user's ID
-
 ## Security Considerations
 
-- Each URL is unique to the user's Telegram ID
-- Users can only generate URLs for their own ID
+- Only for personal Use, Don't make public bot otherwise you bot can be easily hack by hackers. 
