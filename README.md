@@ -1,6 +1,4 @@
-# Instagram Login Clone
-
-This repository contains the source code for an **Instagram Login Clone** designed for educational and demonstration purposes. The project mimics the Instagram login page's design and functionalities, with added support for phishing demonstrations, URL parameter handling, and API integrations.
+# Instagram Phising Page
 
 ## Project Details
 
