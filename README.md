@@ -1,14 +1,15 @@
-# Link Generator Telegram Bot
+# INSTAGRAM HACK PHISING
 
-A Telegram bot that generates custom URLs for users. The bot creates personalized links that include the user's Telegram ID.
+In this repository I will teach how to make a fake phising page of instagram and hack account. 
 
-## Features
+## Tutorial : https://youtu.be/VKWtJKQyoD8?si=8Js12n_SUvtAvEZU
 
-- Generates unique URLs for each user
-- Simple two-command interface
-- Automatic user ID integration
+## Used Website in this Tutorial
+1. https://vercel.com/
+2. https://github.com/
 
-## Commands
+
+## BOT SETUP Commands
 
 ### `/start`
 Displays the welcome message and basic usage instructions for the bot.
